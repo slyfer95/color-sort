@@ -2,6 +2,8 @@
 
 A fun and challenging puzzle game where you need to sort colored blocks into matching columns.
 
+Try it out here: [Color Sort Puzzle Game](https://sort-color.netlify.app/)
+
 ## How to Play
 
 1. The game starts with several columns filled with randomly colored blocks and 2 empty columns
