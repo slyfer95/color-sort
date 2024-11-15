@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Color Sort Puzzle Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun and challenging puzzle game where you need to sort colored blocks into matching columns.
 
-## Available Scripts
+## How to Play
 
-In the project directory, you can run:
+1. The game starts with several columns filled with randomly colored blocks and 2 empty columns
+2. Each column can hold up to 4 blocks
+3. You can only move blocks that are at the top of a column
+4. Click on a block to select it, then click on an empty space to move it there
+5. Your goal is to sort all the blocks so that each column contains blocks of the same color
+6. Try to complete the puzzle in as few moves as possible!
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive design that works on both desktop and mobile
+- Dark/light theme support
+- Randomly generated puzzles with varying difficulty
+- Move counter to track your progress
+- Satisfying animations and visual feedback
+- Congratulations screen when you win
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Strategy Tips
 
-### `npm test`
+- Use the empty columns strategically as temporary storage
+- Plan your moves ahead to minimize the number of moves needed
+- Try to free up a full column early to give yourself more flexibility
+- Look for opportunities to directly move blocks to their final position
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Give it a try and see how efficiently you can sort the colors!
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Game in Light Mode](./screenshots/light-mode.png)
+_Game interface in light mode showing colored blocks and empty columns_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Game in Dark Mode](./screenshots/dark-mode.png)
+_Game interface in dark mode with a puzzle in progress_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Win Screen](./screenshots/win-screen.png)
+_Victory screen showing move count and play again button_
